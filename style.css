@@ -9,7 +9,7 @@ body {
   background-position: 75%;
   background-repeat: no-repeat;
 }
-
+/************************************** Grid général */
 .leftmargin {
   grid-column: 1;
   grid-row: 1 / 4;
@@ -28,7 +28,7 @@ body {
   grid-template-columns: 50px 200px minmax(250px, 1fr);
   grid-template-rows: 50px 120px 1fr 50px;
 }
-
+/************************************** Sous-grid du conteneur */
 .bandeau_top {
   grid-column: 2;
   grid-row: 1;
@@ -55,7 +55,7 @@ body {
   grid-column: 3;
   grid-row: 3;
 }
-
+/************************************** Titre: nom, prénom, et activité */
 .nametext {
   padding-left: 4px;
   padding-top: 12px;
@@ -75,14 +75,15 @@ body {
 .name h2 {
   margin-top: 0px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
+  font-weight: 600;
   color: rgb(53, 61, 73);
 }
-
+/************************************** Photos et icones réseaux sociaux*/
 #photo {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-top: 40px;
 }
 
 #linkedin {
@@ -121,18 +122,18 @@ li {
 
 .socialmedia ul {
   display: flex;
-  flex-direction: row;
-  padding: 0px 0px 5px 0px;
-  margin: 0px;
-  width: 100%;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: auto;
+  width: 80%;
 }
 
 .socialmedia ul li {
-  padding-left: 2.5px;
-  padding-right: 2.5px;
+  padding-left: 1.5px;
+  padding-right: 1.5px;
+  margin: 0px;
 }
-
+/************************************** Infos personnelles dans le bandeau*/
 .personinfo {
   color: rgb(245, 245, 245);
   font-family: 'Montserrat', sans-serif;
@@ -174,9 +175,41 @@ li {
 }
 
 .bandeau .interests {
-  padding-top: 20px;
+  padding-top: 0px;
+  margin: 0px;
 }
 
 .bandeau .references {
   padding-top: 5px;
+}
+/************************************* Section CV*/
+.content {
+  padding-left: 25px;
+  width: inherit;
+}
+
+.content h1 {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 550;
+  font-variant: small-caps;
+  color: rgb(245, 245, 245);
+}
+
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(245, 245, 245);
+}
+
+.content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: rgb(245, 245, 245);
+  max-width: 600px;
+  padding-left: 50px;
+  padding-top: 0%;
 }
