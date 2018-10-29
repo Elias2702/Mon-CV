@@ -39,7 +39,7 @@ body {
   grid-column: 2;
   grid-row: 3 / 5;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .bandeau , .bandeau_top {
@@ -83,4 +83,100 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#linkedin {
+  width: 30px;
+  height: auto;
+}
+
+#github {
+  width: 30px;
+  height: auto;
+}
+
+#facebook {
+  width: 30px;
+  height: auto;
+}
+
+#instagram {
+  width: 30px;
+  height: auto;
+}
+
+#whatsapp {
+  width: 30px;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.socialmedia {
+  padding: 0px;
+  margin: 0px;
+}
+
+.socialmedia ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 5px 0px;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+}
+
+.socialmedia ul li {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.personinfo {
+  color: rgb(245, 245, 245);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.personinfo h2 {
+  font-weight: 100;
+  padding-left: 2px;
+}
+
+.personinfo p {
+  font-size: 0.9em;
+  padding-left: 10px;
+}
+
+.personinfo ul {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.personinfo ul li {
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.personinfo ul li p {
+  padding-left: 0px;
+}
+
+.personinfo .employerquote {
+  font-style: italic;
+}
+
+.personinfo .profile {
+  padding-top: 5px;
+}
+
+.bandeau .interests {
+  padding-top: 20px;
+}
+
+.bandeau .references {
+  padding-top: 5px;
 }
